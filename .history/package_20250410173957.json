@@ -1,0 +1,15 @@
+{
+  "name": "shopify-custom-app",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@shopify/shopify-api": "^11.12.0",
+    "@shopify/shopify-app-express": "^5.0.17",
+    "dotenv": "^16.4.7",
+    "express": "^5.1.0"
+  }
+}
