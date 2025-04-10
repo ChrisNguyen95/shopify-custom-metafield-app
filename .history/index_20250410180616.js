@@ -6,8 +6,6 @@ import dotenv from "dotenv";
 dotenv.config();
 
 const PORT = parseInt(process.env.PORT || "3000", 10);
-const app = express();
-app.use(express.json());
 /*
 // Cấu hình database cho session storage
 const sessionStorage = new PostgreSQLSessionStorage({
@@ -108,7 +106,7 @@ shopify.webhooks.addHandlers({
 app.get("/", (_req, res) => {
   res.status(200).send("Shopify App hoạt động thành công 🚀");
 });
-*/
+/*
 app.listen(PORT, () => {
   console.log(`Server đang chạy tại http://localhost:${PORT}`);
 });
